@@ -5,7 +5,7 @@ cd /usr/local/ && git clone https://github.com/sstephenson/rbenv.git
 cd /usr/local/rbenv
 mkdir /usr/local/rbenv/shims /usr/local/rbenv/versions
 groupadd deployer
-chown -R root:deployer /user/local/rbenv/shims
+chown -R root:deployer /usr/local/rbenv/shims
 chmod -R 0775 /usr/local/rbenv/shims
 chown -R root:deployer /usr/local/rbenv/versions
 chmod -R 0775 /usr/local/rbenv/versions
