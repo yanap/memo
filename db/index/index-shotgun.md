@@ -11,4 +11,19 @@ varchar(80)などの長い文字列を格納するデータ型へのインデッ
 複合インデックスは、ヒット率が低くなりがち
 列を定義した順(左から右)に使わなければなりません
 
+# MENTOR
+
+DBがボトルネックとは限らない、ソフトウェア診断ツールを実行するようにしよう
+
+## Measure(測定)
+
+MySQLとPostgreSQLは、指定された閾値より実行時間が長くかかったクエリを記録できます。
+MySQLでは、この機能はスロークエリログと呼ばれます。
+
+クエリパフォーマンス測定中は、クエリ結果のキャッシュを全て無効化しましょう
+
+https://docs.datadoghq.com/ja/integrations/mysql/
+
+
+https://dev.classmethod.jp/articles/datadog-enhanced-rds-integration/
 
