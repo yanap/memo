@@ -78,3 +78,13 @@ MySQLでは、LOAD INDEX INTO CACHE
 
 MySQL ANALYZE TABLE, OPTIMIZE TABEL
 
+
+## フィア・オブ・ジ・アンノウン
+
+NULL
+
+## アンビギュアスグループ
+
+クエリから曖昧な列を排除する
+
+
